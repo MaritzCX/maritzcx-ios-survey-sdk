@@ -1,0 +1,25 @@
+{
+  "name": "MaritzCXMobileSurveys",
+  "version": "0.1.0",
+  "summary": "A short description of MaritzCXMobileSurveys.",
+  "description": "",
+  "homepage": "https://bitbucket.org/allegiance_scm/maritzcx-survey-sdk-ios",
+  "license": "MIT",
+  "authors": {
+    "Mike Perry": "mike.perry@maritzcx.com"
+  },
+  "source": {
+    "git": "https://bitbucket.org/allegiance_scm/maritzcx-survey-sdk-ios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "MaritzCXMobileSurveys": [
+      "Pod/**/*.xib"
+    ]
+  }
+}

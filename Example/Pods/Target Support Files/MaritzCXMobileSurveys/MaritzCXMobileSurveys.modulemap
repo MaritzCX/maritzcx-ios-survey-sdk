@@ -1,0 +1,6 @@
+framework module MaritzCXMobileSurveys {
+  umbrella header "MaritzCXMobileSurveys-umbrella.h"
+
+  export *
+  module * { export * }
+}
