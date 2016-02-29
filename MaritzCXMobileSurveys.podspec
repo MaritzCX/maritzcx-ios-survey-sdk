@@ -20,17 +20,17 @@ Pod::Spec.new do |s|
 This SDK allows an iOS developer to host a MaritzCX survey inside an iOS app.
                        DESC
 
-  s.homepage         = "https://bitbucket.org/allegiance_scm/maritzcx-survey-sdk-ios"
+  s.homepage         = "https://github.com/MaritzCX/maritzcx-ios-survey-sdk"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Mike Perry" => "mike.perry@maritzcx.com" }
-  s.source           = { :git => "https://bitbucket.org/allegiance_scm/maritzcx-survey-sdk-ios.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/MaritzCX/maritzcx-ios-survey-sdk.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/MaritzCX'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Pod/Classes/**/*.{h,m}'
   s.resource_bundles = {
     'MaritzCXMobileSurveys' => ['Pod/**/*.xib']
   }
